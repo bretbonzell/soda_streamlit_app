@@ -1,0 +1,7 @@
+   checks for customer:
+   # Checks that dataset contains fewer than 100 rows; written to fail
+     - row_count < 100:
+         name: Dataset is reasonably sized
+   # Checks that column contains no NULL values
+     - missing_count(C_CUSTKEY) = 0:
+         name: No NULL values

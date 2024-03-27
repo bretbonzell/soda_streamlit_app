@@ -1,0 +1,13 @@
+application,name,result,value,date,table
+postgres,Ensure values are formatted as email addresses,pass,0,2024-03-27,dim_customer
+postgres,Ensure there are no null values in the Last Name column,pass,0,2024-03-27,dim_customer
+postgres,No duplicate phone numbers,fail,715,2024-03-27,dim_customer
+postgres,Data in this dataset is less than 7 days old,fail,320610758124,2024-03-27,dim_customer
+snowflake,Dataset is reasonably sized,fail,150000,2024-03-27,customer
+snowflake,No NULL values,pass,0,2024-03-27,customer
+snowflake,Dataset is reasonably sized,fail,150000,2024-03-27,customer
+snowflake,No NULL values,pass,0,2024-03-27,customer
+postgres,Ensure values are formatted as email addresses,pass,0,2024-03-27,dim_customer
+postgres,Ensure there are no null values in the Last Name column,pass,0,2024-03-27,dim_customer
+postgres,No duplicate phone numbers,fail,715,2024-03-27,dim_customer
+postgres,Data in this dataset is less than 7 days old,fail,320610642918,2024-03-27,dim_customer
