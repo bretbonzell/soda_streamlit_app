@@ -4,6 +4,7 @@ from datetime import datetime
 from datetime import timedelta
 from soda.scan import Scan
 from functions import run_soda_scan
+import altair as alt
 
 
 tab1, tab2, tab3 = st.tabs(["All Apps", "Snowflake", "Postgres"])
